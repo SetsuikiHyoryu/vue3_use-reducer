@@ -5,7 +5,7 @@ import type { Ref } from 'vue'
 import { addTodo, removeTodo, toggleTodo } from './action'
 import actionTypes from './actionTypes'
 
-export function todoReduser(state: Ref<TodoList>, action: Action) {
+export function todoReducer(state: Ref<TodoList>, action: Action) {
   const { type, payload }: Action = action
 
   const actionMap = new Map<string, Function>([

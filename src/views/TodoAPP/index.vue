@@ -9,7 +9,7 @@ import TodoForm from './TodoForm.vue'
 import type { TodoItem, TodoList } from './store/types'
 
 import { useReducer } from '@/hooks'
-import { todoReduser } from './store/reducer'
+import { todoReducer } from './store/reducer'
 import { actionTypes } from './store'
 
 const [todoList, todoDispatch] = useReducer<TodoList>(todoReducer, [])
