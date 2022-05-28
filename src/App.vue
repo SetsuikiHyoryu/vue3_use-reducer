@@ -7,7 +7,17 @@ import TodoAPP from '@/views/TodoAPP/index.vue'
 </template>
 
 <style>
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
 #app {
-  background: #888;
+  background: #eee;
+  height: 100%;
 }
 </style>
