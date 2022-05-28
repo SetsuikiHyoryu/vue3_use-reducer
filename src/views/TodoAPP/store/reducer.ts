@@ -2,7 +2,7 @@ import type { Action } from '@/hooks/useReducer'
 import type { TodoList } from './types'
 import type { Ref } from 'vue'
 
-import { addTodo, removeTodo, toggleTodo } from './action'
+import { addTodo, removeTodo, toggleTodo } from './actions'
 import actionTypes from './actionTypes'
 
 export function todoReducer(state: Ref<TodoList>, action: Action) {

@@ -12,6 +12,7 @@ import { useReducer } from '@/hooks'
 import { todoReducer } from './store/reducer'
 import { actionTypes } from './store'
 
+// 此次直接赋了空白数组，也可以在 `store` 目录下创建 `state.ts` 对初始值集中管理
 const [todoList, todoDispatch] = useReducer<TodoList>(todoReducer, [])
 
 function addTodo(todo: TodoItem) {
