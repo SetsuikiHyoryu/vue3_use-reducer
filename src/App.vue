@@ -17,7 +17,7 @@ body {
 }
 
 #app {
-  background: #eee;
+  background: #888;
   height: 100%;
 }
 </style>
